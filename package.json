@@ -1,0 +1,28 @@
+{
+  "name": "barbershop2_htmlacademy",
+  "version": "1.0.0",
+  "description": "Layout skills training with a template named «Barbershop» by «HTMLAcademy» with adaptive and retina",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "eslint": "^8.18.0",
+    "eslint-config-htmlacademy": "^6.0.0",
+    "gulp": "^4.0.2"
+  },
+  "devDependencies": {
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.53.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bertrana/barbershop2_HTMLAcademy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bertrana/barbershop2_HTMLAcademy/issues"
+  },
+  "homepage": "https://github.com/bertrana/barbershop2_HTMLAcademy#readme"
+}
