@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <title>Барбершоп «Бородинский»</title>
+<head>
+  <meta charset="utf-8">
+</head>
+<body>
+  <header class="page-header">
+    <a href="" class="page-header__logo">
+      <img class="page-header__logo-image" src="img/logotype-mobile.svg" width="226" height="30" alt="Барбершоп «Бородинский»" >
+    </a>
+    <nav class="main-nav">
+      <button class="main-nav__toggle" type="button">Открыть меню</button>
+      <div class="main-nav__wrapper">
+        <ul class="main-nav__list site-list">
+          <li class="site-list__item">
+            <a href="#">Главная</a>
+          </li>
+          <li class="site-list__item">
+            <a href="#">Наши работы</a>
+          </li>
+          <li class="site-list__item site-list__item--active">
+            <a>Записаться</a>
+          </li>
+          <li class="site-list__item">
+            <a href="#">Контакты</a>
+          </li>
+          <li class="site-list__item">
+            <a href="#">HTML Academy</a>
+          </li>
+        </ul>
+        <ul class="main-nav__list user-list">
+          <li class="user-list__item">
+            <a class="user-list__login" href="#">Войти</a>
+          </li>
+        </ul>
+      </div>
+    </nav> 
+  </header>
+
+  <main class="page-main">
+    <h1>Запись на стрижку</h1>
+    <form action="https://echo.htmlacademy.ru" method="post">
+      <fieldset>
+        <legend class="visually-hidden">Контактная информация</legend>
+        <ul>
+          <li>
+            <label class="visually-hidden">Имя
+              <input type="text" name="first-name">
+            </label>
+          </li>
+          <li>
+            <label>Фамилия
+              <input type="text" name="second-name">
+            </label>
+          </li>
+          <li>
+            <label >Отчество
+            <input type="text" name="fathers-name">
+            </label>
+          </li>
+        </ul>
+        <input type="textarea">
+      </fieldset>
+
+      <fieldset>
+        <legend>Выберите модель бороды:</legend>
+        <ul>
+          <li>
+            <label>
+              <input type="radio" name="beard-type" value="admiral">
+            </label>
+          </li>
+          <li>
+            <label>
+              <input type="radio" name="beard-type" value="admiral">
+            </label>
+          </li>
+        </ul>
+      </fieldset>
+
+      <fieldset>
+        <legend>Дополнительные услуги:</legend>
+        <ul>
+          <li>
+            <label>
+              <input type="checkbox" name="">
+            </label>
+          </li>
+        </ul>
+      </fieldset>
+      <button type="submit">Отправить</button>
+    </form>
+  </main>
+  
+  <footer class="page-footer">
+    <div class="page-footer__wrapper">
+      <div class="page-footer__contacts contacts">
+        <b class="contacts__title"> Барбершоп Бородинский</b>
+        <p class="contacts__text">г. Санкт-Петербург, ул. Большая Конюшенная 19/8<br>
+          <a class="contacts__phone" href="tel:+78125556666">
+            <span class="contacts__phone-mobile">Тел.:</span> +7 (812) 555-66-66
+          </a>
+        </p>
+      </div>
+
+      <div class="page-footer__social social">
+        <b class="social__title">Давайте дружить!</b>
+        <ul class="social__list">
+          <li class="social__item">
+            <a class="social__link social__link--vk" href="#"></a>
+          </li>
+          <li class="social__item">
+            <a class="social__link social__link--fb" href="#"></a>
+          </li>
+          <li class="social__item">
+            <a class="social__link social__link--inst" href="#"></a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="page-footer__copyright copyright">
+        <b class="copyright__text">Разработано:</b>
+        <a class="copyright__link button" href="#">HTMLAcademy</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
