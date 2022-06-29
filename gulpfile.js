@@ -15,16 +15,16 @@ function scss() {
     .pipe(postcss([
       autoprefixer()
     ]))
-    .pipe(dest('source/css'))
+    .pipe(dest('sources/css'))
 }
 
 function clear() {
-  return del('source/css/style.css')
+  return del('sources/css/style.css')
 }
 
 function serve() {
   sync.init({
-    server: "source/",
+    server: "sources/",
     notify: false,
     open: true,
     cors: true,
