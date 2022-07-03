@@ -13,7 +13,8 @@
   src: local(""), url("../fonts/pt-sans-narrow-v17-latin_cyrillic-700.woff2") format("woff2"), url("../fonts/pt-sans-narrow-v17-latin_cyrillic-700.woff") format("woff"); }
 
 body {
-  font-family: "PT Sans Narrow", "Arial", sans-serif; }
+  font-family: "PT Sans Narrow", "Arial", sans-serif;
+  background-color: #242424; }
 
 .visually-hidden:not(:focus):not(:active),
 input[type="checkbox"].visually-hidden,
