@@ -1,0 +1,24 @@
+$btn-color: #826550;
+
+.main-nav {
+  background-color: $btn-color;
+
+  color: #fff;
+  font-style: bold;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.main-nav__list {
+  display: flex;
+  flex-direction: column;
+}
+
+.site-list {
+  list-style: none;
+}
+
+.site-list__item a {
+  color: #fff;
+  text-decoration: none;
+}

@@ -29,3 +29,29 @@ input[type="radio"].visually-hidden {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden; }
+
+.page-header {
+  padding-top: 28px; }
+
+.page-header__logo {
+  margin: 26px 50px; }
+
+.main-nav {
+  background-color: #826550;
+  color: #fff;
+  font-style: bold;
+  font-size: 18px;
+  line-height: 24px; }
+
+.main-nav__list {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column; }
+
+.site-list {
+  list-style: none; }
+
+.site-list__item a {
+  color: #fff;
+  text-decoration: none; }
