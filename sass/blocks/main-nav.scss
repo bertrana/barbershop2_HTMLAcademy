@@ -1,24 +1,91 @@
-$btn-color: #826550;
+$color__light-brown: #826550;
+$color__dark-brown: #6a4d38;
+$height__list-item: 50px;
 
 .main-nav {
-  background-color: $btn-color;
+  position: relative;
+  min-width: 250px;
+  margin-left: 70px;
 
-  color: #fff;
-  font-style: bold;
   font-size: 18px;
   line-height: 24px;
+
+  background-color:
+  $color__light-brown;
 }
 
-.main-nav__list {
+.main-nav__toggle {
+  width: 70px;
+  height: $height__list-item;
+
+  padding: 0;
+  margin-left: calc(100% - 70px);
+
+  border: none;
+  content-visibility: hidden;
+  background-color: $color__dark-brown;
+}
+
+.main-nav__wrapper {
   display: flex;
   flex-direction: column;
 }
 
-.site-list {
+.main-nav__list {
+  position: absolute;
+  top: $height__list-item;
+
+  padding: 0;
+  margin: 0;
+
+  box-shadow: inset 10px 0px 10px -10px #000000;
   list-style: none;
 }
 
-.site-list__item a {
+.main-nav__list a {
   color: #fff;
   text-decoration: none;
+}
+
+.site-list {
+
+  font-weight: 700;
+  text-transform: uppercase;
+  
+  background-color:
+  $color__light-brown;
+}
+
+.site-list__item {
+  padding: 13px 20px;
+
+  box-shadow: inset 0px 1px 0px 0px #886e5b, 0px -1px 0px 0px #71543f;
+}
+
+.site-list__item:first-child {
+  box-shadow: inset 0px 1px 0px 0px #886e5b;
+}
+
+.user-list {
+  background-color: $color__dark-brown;
+}
+
+.user-list__item {
+  position: relative;
+
+  padding: 17px 48px;
+  padding-right: auto;
+}
+
+.user-list__login::before {
+  content: "";
+
+  width: 16px;
+  height: 16px;
+
+  position: absolute;
+  left: 17px;
+  top: 20px;
+
+  background-image: url("/img/login.svg.png");
 }
