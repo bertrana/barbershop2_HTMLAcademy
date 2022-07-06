@@ -5,7 +5,7 @@ $height__list-item: 50px;
 .main-nav {
   position: relative;
   min-width: 250px;
-  margin-left: 70px;
+  height: 50px;
 
   font-size: 18px;
   line-height: 24px;
@@ -27,13 +27,22 @@ $height__list-item: 50px;
 }
 
 .main-nav__wrapper {
+  // opacity: 0;
+  
+  position: absolute;
+  top: 0px;
+
+  width: 100%;
   display: flex;
   flex-direction: column;
+  
+  margin-left: 70px;
 }
 
 .main-nav__list {
-  position: absolute;
-  top: $height__list-item;
+  display: none;
+
+  position: relative;
 
   padding: 0;
   margin: 0;
