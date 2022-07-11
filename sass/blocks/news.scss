@@ -2,6 +2,8 @@
   padding-top: 34px;
   background-color: #fff;
 
+  border-bottom: 1px solid #e5ddd5;
+
   color: #000;
 }
 
@@ -27,22 +29,30 @@
 
 .news__item {
   display: flex;
+  box-sizing: border-box;
 
   margin-bottom: 20px;
+
+  &:first-child {
+    padding-bottom: 20px;
+
+    border-bottom: 1px solid $border-color;
+  }
+
+  &:nth-child(3) {
+    display: none;
+  }
 }
 
 .news__date {
-  // display: block;
-  // min-height: 50px;
   box-sizing: border-box;
   min-width: 50px;
+  height: 50px;
 
   position: relative;
 
-
   margin-right: 20px;
-  padding: 5px 10px;
-  padding-top: 32px;
+  padding-top: 25px;
 
   background-color: #000;
 
@@ -50,17 +60,37 @@
   text-align: center;
   font-size: 16px;
   line-height: 30px;
+
+  &::after {
+    content: "";
+
+    position: absolute;
+    top: 50px;
+    left: 0;
+
+    width: 50px;
+    height: 10px;
+
+    background-color: orangered;
+  }
 }
 
 .news__day {
   position: absolute;
   top: 5px;
 
-  margin: 0 auto;
+  display: block;
+  min-width: 50px;
+  padding: 0 auto;
 
   font-size: 30px;
 }
 
 .news__text {
   margin: 0;
+}
+
+.news__to-all {
+  width: 100%;
+  margin-bottom: 28px;
 }
