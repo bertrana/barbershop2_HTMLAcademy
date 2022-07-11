@@ -248,6 +248,9 @@ input[type="radio"].visually-hidden {
 .advantages__toggle {
   padding-bottom: 13px; }
 
+.slider__item {
+  display: none; }
+
 .slider__item--active {
   display: block; }
 
@@ -332,4 +335,59 @@ input[type="radio"].visually-hidden {
   font-size: 18px;
   line-height: 24px;
   text-align: center;
-  text-decoration: none; }
+  text-decoration: none;
+  text-transform: uppercase; }
+
+.reviews {
+  padding-bottom: 18px;
+  margin-bottom: 10px;
+  background-color: #fff;
+  color: #000; }
+
+.reviews__title {
+  margin: 0;
+  padding: 26px 0;
+  text-align: center;
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: 700;
+  text-transform: uppercase; }
+
+.reviews__wrapper {
+  padding: 0 20px; }
+
+.reviews__write {
+  display: none; }
+
+.reviews__item {
+  position: relative;
+  margin: 0;
+  padding-left: 70px;
+  padding-bottom: 30px; }
+
+.reviews__author-picture {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50px;
+  height: 50px;
+  border: 1px solid #e5ddd5; }
+
+.reviews__author-name {
+  display: inline-block;
+  margin-bottom: 10px;
+  text-align: left;
+  font-size: 24px;
+  line-height: 27px;
+  font-weight: 700;
+  font-style: normal; }
+
+.reviews__text {
+  margin: 0;
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 400; }
+
+.reviews__prev,
+.reviews__next {
+  display: none; }
