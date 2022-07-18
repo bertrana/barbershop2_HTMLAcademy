@@ -1,0 +1,39 @@
+.contacts {
+  padding: 0 20px;
+  padding-top: 35px;
+  
+  border: 1px solid $border-dark-color;
+}
+
+.contacts__title {
+  font-weight: 700;
+}
+
+.contacts__text {
+  margin-bottom: 26px;
+
+  font-weight: 400;
+}
+
+.contacts__phone {
+  display: block;
+  margin-top: 20px;
+
+  width: 280px;
+  box-sizing: border-box;
+  min-height: 52px;
+  padding-top: 14px;
+
+  color: #fff;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+
+  border: 1px solid $border-dark-color;
+}
+
+.contacts__phone-mobile {
+  display: block;
+  opacity: 0;
+  height: 0;
+}

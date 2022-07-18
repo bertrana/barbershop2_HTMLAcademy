@@ -1,7 +1,3 @@
-$color__light-brown: #826550;
-$color__dark-brown: #6a4d38;
-$height__list-item: 50px;
-
 .main-nav {
   position: relative;
   min-width: 250px;
@@ -11,19 +7,20 @@ $height__list-item: 50px;
   line-height: 24px;
 
   background-color:
-  $color__light-brown;
+  $nav-light-brown;
 }
 
 .main-nav__toggle {
   width: 70px;
-  height: $height__list-item;
+  height: 50px;
 
   padding: 0;
   margin-left: calc(100% - 70px);
 
   border: none;
   content-visibility: hidden;
-  background-color: $color__dark-brown;
+  background-color: $nav-dark-brown;
+  color: #fff;
 }
 
 .main-nav__wrapper {
@@ -61,7 +58,8 @@ $height__list-item: 50px;
   text-transform: uppercase;
   
   background-color:
-  $color__light-brown;
+  $nav-light-brown;
+  color: #fff;
 }
 
 .site-list__item {
@@ -75,7 +73,7 @@ $height__list-item: 50px;
 }
 
 .user-list {
-  background-color: $color__dark-brown;
+  background-color: $nav-dark-brown;
 }
 
 .user-list__item {

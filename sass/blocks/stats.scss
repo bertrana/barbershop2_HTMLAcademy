@@ -4,6 +4,7 @@
   padding: 0 20px;
 
   background-color: #fff;
+  color: #000;
 }
 
 .stats__slogan {
@@ -11,6 +12,7 @@
   padding-bottom: 15px;
 
   text-align: center;
+  text-transform: uppercase;
   font-size: 30px;
   line-height: 30px;
   font-weight: 700;
@@ -24,6 +26,10 @@
   font-size: 20px;
   line-height: 27px;
   font-weight: 400;
+}
+
+.stats__legend--top {
+  display: none;
 }
 
 .stats__table {
