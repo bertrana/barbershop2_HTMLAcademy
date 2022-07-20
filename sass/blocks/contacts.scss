@@ -1,6 +1,6 @@
 .contacts {
   padding: 0 20px;
-  padding-top: 35px;
+  padding-top: 30px;
   
   border: 1px solid $border-dark-color;
 }
@@ -10,7 +10,9 @@
 }
 
 .contacts__text {
-  margin-bottom: 26px;
+  margin: 0;
+  padding-top: 10px;
+  padding-bottom: 25px;
 
   font-weight: 400;
 }
@@ -21,8 +23,8 @@
 
   width: 280px;
   box-sizing: border-box;
-  min-height: 52px;
-  padding-top: 14px;
+  min-height: 50px;
+  padding-top: 10px;
 
   color: #fff;
   font-weight: 700;
